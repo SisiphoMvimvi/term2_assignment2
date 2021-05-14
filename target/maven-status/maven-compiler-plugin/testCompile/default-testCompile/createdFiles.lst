@@ -1,1 +1,8 @@
-za\ac\cput\AppTest.class
+za\ac\cput\StudentMapInterfaceTest.class
+za\ac\cput\StudentCollectionTest.class
+za\ac\cput\StudentSetInterface.class
+za\ac\cput\StudentListInterfaceTest.class
+za\ac\cput\StudentSetInterfaceTest.class
+za\ac\cput\StudentCollection.class
+za\ac\cput\StudentListInterface.class
+za\ac\cput\StudentMapInterface.class
