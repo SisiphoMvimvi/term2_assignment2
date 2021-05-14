@@ -19,7 +19,7 @@ class StudentListInterfaceTest {
         studentList.add("Is");
         studentList.add("Giving");
         studentList.add("Headache");
-        System.out.println(studentList);
+        System.out.println("Four Names added: " +studentList);
         assertEquals(4, studentList.size());
 
 }
@@ -29,7 +29,7 @@ class StudentListInterfaceTest {
         studentList.add("Coding");
         studentList.add("Sweet");
         studentList.remove("Sweet");
-        System.out.println(studentList);
+        System.out.println("Sweet Removed: " +studentList);
         assertEquals(1, studentList.size());
     }
 
@@ -38,9 +38,8 @@ class StudentListInterfaceTest {
 
         studentList.add("Coding");
         studentList.add("Sweet");
-        studentList.contains("Sweet");
-        System.out.println(studentList);
-        assertEquals(1, studentList.size());
 
-    }
-}
+        System.out.println("Student Found" + studentList.get(0));
+
+
+    }}

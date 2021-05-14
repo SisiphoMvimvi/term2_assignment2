@@ -17,7 +17,7 @@ class StudentCollectionTest {
         studentCollection.add("Is");
         studentCollection.add("Giving");
         studentCollection.add("Headache");
-        System.out.println(studentCollection);
+        System.out.println("Four Names added: " + studentCollection);
         assertEquals( 4, studentCollection.size());
 
     }
@@ -26,16 +26,16 @@ class StudentCollectionTest {
         studentCollection.add("Coding");
         studentCollection.add("Sweet");
         studentCollection.remove("Sweet");
-        System.out.println(studentCollection);
+        System.out.println("Name Removed: " + studentCollection);
         assertEquals(1, studentCollection.size());
     }
     @Test
     void testFind(){
         studentCollection.add("Coding");
         studentCollection.add("Gives");
-        studentCollection.contains(1);
-        System.out.println(studentCollection);
-        assertEquals(3, studentCollection.size());
+
+        System.out.println("Name Found"+ studentCollection.getClass());
+       
     }
 
 }

@@ -17,7 +17,7 @@ class StudentMapInterfaceTest {
         studentMap.put(2, "Is");
         studentMap.put(3, "Giving");
         studentMap.put(4, "Headache");
-        System.out.println(studentMap);
+        System.out.println("Four Names Added:" +studentMap);
         assertEquals(4, studentMap.size());
     }
 
@@ -29,8 +29,8 @@ class StudentMapInterfaceTest {
         studentMap.put(4, "Headache");
 
         studentMap.remove(2);
-        System.out.println(studentMap);
-        assertEquals(4, studentMap.size());
+        System.out.println("IS Removed: "+studentMap);
+        assertEquals(1, studentMap.size());
 
     }
 
@@ -41,9 +41,8 @@ class StudentMapInterfaceTest {
         studentMap.put(3, "Giving");
         studentMap.put(4, "Headache");
 
-        studentMap.containsKey(1);
-        System.out.println(studentMap);
-        assertEquals(4, studentMap.size());
+        System.out.println("Found one name: "+studentMap.get(2));
+
     }
 
 }

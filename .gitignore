@@ -1,3 +1,4 @@
 /src/main/java/za/ac/cput/
+.idea
 .xml/
-.iml
+*.iml
