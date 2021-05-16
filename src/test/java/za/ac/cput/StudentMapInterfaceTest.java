@@ -41,7 +41,8 @@ class StudentMapInterfaceTest {
         studentMap.put(3, "Giving");
         studentMap.put(4, "Headache");
 
-        System.out.println("Found one name: "+studentMap.get(2));
+        studentMap.containsKey(3);
+        System.out.println("Name Found: "+ studentMap.containsKey(3));
 
     }
 

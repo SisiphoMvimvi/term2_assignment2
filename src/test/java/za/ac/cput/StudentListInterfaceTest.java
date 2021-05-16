@@ -39,7 +39,8 @@ class StudentListInterfaceTest {
         studentList.add("Coding");
         studentList.add("Sweet");
 
-        System.out.println("Student Found" + studentList.get(0));
+        studentList.contains("Coding");
+        System.out.println("Name Found: "+ studentList.contains("Coding"));
 
 
     }}

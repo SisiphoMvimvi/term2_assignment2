@@ -34,7 +34,8 @@ class StudentCollectionTest {
         studentCollection.add("Coding");
         studentCollection.add("Gives");
 
-        System.out.println("Name Found"+ studentCollection.getClass());
+        studentCollection.contains("Coding");
+        System.out.println("Name Found: "+ studentCollection.contains("Coding"));
        
     }
 

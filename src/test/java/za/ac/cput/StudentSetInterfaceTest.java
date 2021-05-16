@@ -33,8 +33,8 @@ class StudentSetInterfaceTest {
     public void testFind(){
         studentSet.add("Coding");
         studentSet.add("Sweet");
-
-        System.out.println("Found Coding: " +studentSet.getClass());
+       studentSet.contains("Coding");
+        System.out.println("Found Coding: " +studentSet.contains("Coding"));
 
     }
 
