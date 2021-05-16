@@ -32,6 +32,7 @@ class StudentMapInterfaceTest {
         System.out.println("IS Removed: "+studentMap);
         assertEquals(1, studentMap.size());
 
+
     }
 
     @Test
